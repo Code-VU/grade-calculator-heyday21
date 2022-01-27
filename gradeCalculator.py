@@ -5,13 +5,13 @@ def calculateGrade():
     grade = float(input("Enter Score: "))
     if grade >.9999:
         print ("Bad Grade")
-    if grade >=.9:
+    elif (1.0> grade >=.9):
         print ("A")
-    elif grade >=.8:
+    elif (.9> grade >=.8):
         print ("B")
-    elif grade >=.7:
+    elif (.8> grade >=.7):
         print ("C")
-    elif grade >=.6:
+    elif (.7 >grade >=.6):
         print ("D")
     elif (0 <=grade <.6):
         print ("F")
