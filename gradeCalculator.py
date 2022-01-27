@@ -2,7 +2,11 @@ def calculateGrade():
     # Implement your solution in between the two comment blocks
     # This first line is provided for you
     print("Calculating Grade")
-    grade = float(input("Enter Score: "))
+    score =(input("Enter Score: "))
+    try:
+        grade = float(score)
+    except:
+        print("Bad grade")
     if grade >.9999:
         print ("Bad Grade")
     elif (1.0> grade >=.9):
